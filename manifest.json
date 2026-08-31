@@ -1,7 +1,7 @@
 {
   "base_cdn": "https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main",
   "base_raw": "https://raw.githubusercontent.com/antoniomachadoo/quintas-douro-logos/main",
-  "total": 41,
+  "total": 42,
   "logos": [
     {
       "quinta": "Quinta do Vallado",
@@ -453,6 +453,17 @@
       "logo_url": "https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main/logos/casa-da-lameira.png",
       "email_url": "https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main/email/casa-da-lameira.png",
       "logo_url_raw": "https://raw.githubusercontent.com/antoniomachadoo/quintas-douro-logos/main/logos/casa-da-lameira.png"
+    },
+    {
+      "quinta": "Legado da Casa",
+      "ficheiro": "legado-da-casa.png",
+      "sub_regiao": "Restauração",
+      "concelho": "—",
+      "website": "",
+      "tile_bg": "escuro/creme",
+      "logo_url": "https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main/logos/legado-da-casa.png",
+      "email_url": "https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main/email/legado-da-casa.png",
+      "logo_url_raw": "https://raw.githubusercontent.com/antoniomachadoo/quintas-douro-logos/main/logos/legado-da-casa.png"
     }
   ]
 }
