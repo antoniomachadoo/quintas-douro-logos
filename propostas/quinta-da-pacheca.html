@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Proposta 2026/5302 — Quinta da Pacheca · DOURO ID</title>
+<meta name="description" content="Balde de gelo e manga de arrefecimento personalizados com o logótipo da Quinta da Pacheca.">
+<style>
+  :root{
+    --verde:#40783C; --verde-esc:#15211A; --verde-claro:#7DB870;
+    --wash:#F4F7F3; --linha:#DDE5DB; --tinta:#15211A; --corpo:#415043; --apagado:#8A968A;
+    --sans:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#EDF1EB;color:var(--corpo);font-family:var(--sans);font-size:16px;line-height:1.7}
+  .folha{max-width:680px;margin:0 auto;background:#fff}
+  a{color:var(--verde)}
+  :focus-visible{outline:2px solid var(--verde);outline-offset:3px}
+
+  header.topo{display:flex;align-items:center;justify-content:space-between;gap:20px;
+    padding:20px 28px;background:#15211A}
+  .marca{font-weight:800;font-size:24px;letter-spacing:-.7px;color:#FFFFFF}
+  .marca span{color:#7DB870}
+  header.topo img{display:block;width:126px;height:42px}
+  .ref{padding:9px 28px;background:var(--wash);border-bottom:1px solid var(--linha);
+    font-size:10px;font-weight:600;letter-spacing:1.8px;color:var(--apagado)}
+
+  .maquete{display:block;width:100%;height:auto}
+  .intro{padding:30px 28px 0}
+  h1{font-size:clamp(28px,6vw,34px);line-height:1.15;letter-spacing:-.8px;color:var(--tinta);margin:0 0 16px}
+  .intro p{margin:0 0 14px}
+
+  .packs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:26px 22px 0}
+  .pack{border:1px solid var(--linha);border-radius:8px;padding:22px 12px 20px;text-align:center;position:relative}
+  .pack.destaque{border:2px solid var(--verde);padding-top:34px}
+  .fita{position:absolute;inset:0 0 auto;background:var(--verde);color:#fff;font-size:9px;font-weight:600;
+    letter-spacing:1.6px;text-transform:uppercase;padding:6px 4px;border-radius:6px 6px 0 0}
+  .pack h3{margin:0;font-size:16px;color:var(--tinta)}
+  .uso{margin:3px 0 0;font-size:11px;color:var(--apagado)}
+  .conteudo{margin:12px 0 0;font-size:13px;line-height:1.6}
+  .preco{margin:12px 0 0;font-size:26px;font-weight:700;letter-spacing:-.5px;color:var(--tinta)}
+  .btn-pack{display:block;margin-top:14px;padding:9px 6px;border:1px solid var(--verde);border-radius:5px;
+    color:var(--verde);text-decoration:none;font-size:13px;font-weight:600}
+  .btn-pack:hover{background:var(--verde);color:#fff}
+  .nota{padding:14px 28px 0;font-size:12px;color:var(--apagado)}
+
+  .cta{text-align:center;padding:28px 28px 4px}
+  .btn{display:inline-block;background:var(--verde);color:#fff;text-decoration:none;font-weight:600;
+    padding:16px 34px;border-radius:5px}
+  .btn:hover{background:#356532}
+  .cta small{display:block;margin-top:12px;color:var(--apagado);font-size:13px}
+
+  .detalhes{padding:30px 28px 8px}
+  details{border-top:1px solid var(--linha)}
+  details:last-of-type{border-bottom:1px solid var(--linha)}
+  summary{cursor:pointer;list-style:none;padding:17px 30px 17px 0;position:relative;
+    font-weight:600;color:var(--tinta);font-size:15px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"";position:absolute;right:6px;top:50%;width:9px;height:9px;
+    border-right:2px solid var(--verde);border-bottom:2px solid var(--verde);
+    transform:translateY(-70%) rotate(45deg);transition:transform .2s}
+  details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+  .interior{padding:0 0 20px;font-size:15px}
+  .cores{display:flex;gap:10px;margin:0 0 12px}
+  .cores i{width:54px;height:36px;border-radius:4px;display:block}
+  ol.passos{margin:0;padding:0;list-style:none;counter-reset:p}
+  ol.passos li{counter-increment:p;padding:9px 0 9px 34px;position:relative;border-bottom:1px solid #EEF2ED}
+  ol.passos li:last-child{border-bottom:0}
+  ol.passos li::before{content:counter(p,decimal-leading-zero);position:absolute;left:0;top:11px;
+    font-size:11px;font-weight:600;color:var(--verde)}
+  table.tarifa{width:100%;border-collapse:collapse}
+  table.tarifa td{padding:9px 0;border-bottom:1px solid #EEF2ED;font-size:15px}
+  table.tarifa tr:last-child td{border-bottom:0}
+  table.tarifa td+td{text-align:right;white-space:nowrap}
+
+  .assina{padding:26px 28px 32px}
+  .assina b{display:block;color:var(--tinta);font-size:16px}
+  .assina span{color:var(--apagado);font-size:13px}
+  footer{background:var(--verde-esc);color:#9DAA9C;text-align:center;padding:26px 28px;font-size:13px}
+  footer .marca{color:#fff;font-size:19px}
+  footer .marca span{color:var(--verde-claro)}
+  footer a{color:#9DAA9C;text-decoration:none}
+  .legal{max-width:680px;margin:0 auto;padding:16px 28px 40px;font-size:11px;line-height:1.6;color:#98A497}
+
+  @media (max-width:620px){
+    .packs{grid-template-columns:1fr}
+    header.topo{padding:16px 20px}
+    .intro,.nota,.detalhes,.assina,.ref{padding-left:20px;padding-right:20px}
+    .packs{padding-left:16px;padding-right:16px}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="folha">
+  <header class="topo">
+    <div class="marca">Douro<span>ID</span></div>
+    <img src="https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main/logos/quinta-da-pacheca.png" alt="Quinta da Pacheca">
+  </header>
+  <div class="ref">PROPOSTA 2026/5302</div>
+
+  <img class="maquete" src="https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main/output/quinta-da-pacheca.png" alt="Frappé e manga de arrefecimento com o logótipo — Quinta da Pacheca">
+
+  <div class="intro">
+    <h1>Um pack de frappés<br>com a vossa marca.</h1>
+    <p>A DOURO ID preparou um pack de frappés para a Quinta da Pacheca. A imagem acima é uma simulação real, com o vosso logótipo impresso a cores e sem limite de tons no frappé e na manga de arrefecimento.</p>
+    <p>Preparámos três packs, conforme o uso que lhe queiram dar.</p>
+  </div>
+
+  <div class="packs">
+      <article class="pack">
+        
+        <h3>Básico</h3>
+        <p class="uso">Para começar</p>
+        <p class="conteudo">1 frappé<br>12 mangas</p>
+        <p class="preco">89 €</p>
+        <a class="btn-pack" href="https://wa.me/351937659457?text=Ol%C3%A1%20Ant%C3%B3nio%2C%20%C3%A9%20da%20Quinta%20da%20Pacheca.%20Vimos%20a%20proposta%202026%2F5302%20e%20queremos%20encomendar%20o%20pack%20B%C3%A1sico.">Encomendar</a>
+      </article>
+      <article class="pack destaque">
+        <div class="fita">O mais escolhido</div>
+        <h3>Médio</h3>
+        <p class="uso">Para o serviço diário</p>
+        <p class="conteudo">3 frappés<br>50 mangas</p>
+        <p class="preco">269 €</p>
+        <a class="btn-pack" href="https://wa.me/351937659457?text=Ol%C3%A1%20Ant%C3%B3nio%2C%20%C3%A9%20da%20Quinta%20da%20Pacheca.%20Vimos%20a%20proposta%202026%2F5302%20e%20queremos%20encomendar%20o%20pack%20M%C3%A9dio.">Encomendar</a>
+      </article>
+      <article class="pack">
+        
+        <h3>Completo</h3>
+        <p class="uso">Para loja e oferta</p>
+        <p class="conteudo">5 frappés<br>300 mangas</p>
+        <p class="preco">1.090 €</p>
+        <a class="btn-pack" href="https://wa.me/351937659457?text=Ol%C3%A1%20Ant%C3%B3nio%2C%20%C3%A9%20da%20Quinta%20da%20Pacheca.%20Vimos%20a%20proposta%202026%2F5302%20e%20queremos%20encomendar%20o%20pack%20Completo.">Encomendar</a>
+      </article>
+  </div>
+  <p class="nota">Valores sem IVA. Logótipo a cores incluído em todos os packs. O pack Completo destina-se a quem queira a manga à venda na loja ou como oferta a clientes e distribuidores.</p>
+
+  <div class="cta">
+    <a class="btn" href="https://wa.me/351937659457?text=Ol%C3%A1%20Ant%C3%B3nio%2C%20%C3%A9%20da%20Quinta%20da%20Pacheca.%20Vimos%20a%20proposta%202026%2F5302%20e%20queremos%20encomendar%20o%20pack.">Quero encomendar o pack</a>
+    <small>A maquete é feita antes de haver qualquer compromisso.</small>
+  </div>
+
+  <div class="detalhes">
+    <details open>
+      <summary>Cores e materiais</summary>
+      <div class="interior">
+        <div class="cores"><i style="background:#111"></i><i style="background:#1C2A4A"></i><i style="background:#8A8A8A"></i><i style="background:#5E1226"></i></div>
+        Mangas de arrefecimento em preto, marinho, cinza ou bordeaux. Frappé em acrílico transparente, 8&nbsp;L.
+        Impressão DTF a cores, sem limite de tons, resistente à condensação e à lavagem.
+      </div>
+    </details>
+    <details>
+      <summary>Como funciona</summary>
+      <div class="interior">
+        <ol class="passos">
+          <li>Maquete digital gratuita, com o vosso logótipo.</li>
+          <li>Aprovação da maquete por vossa parte.</li>
+          <li>Produção em 6 a 10 dias úteis.</li>
+          <li>Entrega com portes incluídos em Portugal continental.</li>
+        </ol>
+      </div>
+    </details>
+    <details>
+      <summary>Reposições avulso</summary>
+      <div class="interior">
+        <table class="tarifa">
+          <tr><td>Mangas, mínimo 25 unidades</td><td>5,90 €/un</td></tr>
+          <tr><td>Mangas, a partir de 100</td><td>4,50 €/un</td></tr>
+          <tr><td>Mangas, a partir de 250</td><td>3,60 €/un</td></tr>
+          <tr><td>Frappés</td><td>24,90 €/un</td></tr>
+        </table>
+      </div>
+    </details>
+    <details>
+      <summary>Pagamento e condições</summary>
+      <div class="interior">
+        Pagamento de 50% na adjudicação e 50% na entrega. Preços sem IVA à taxa legal de 23%.
+        Proposta válida por 30 dias a contar da data de envio.
+        Outra cor ou outra quantidade: é só dizerem, ajustamos a proposta e reenviamos no próprio dia.
+      </div>
+    </details>
+  </div>
+
+  <div class="assina">
+    Com os melhores cumprimentos,
+    <b>António</b>
+    <span>DOURO ID, Vila Real</span>
+  </div>
+
+  <footer>
+    <div class="marca">Douro<span>ID</span></div>
+    <p style="margin:10px 0 0">
+      <a href="mailto:dourografica@gmail.com">dourografica@gmail.com</a> ·
+      937 659 457 · <a href="https://douroid.pt">douroid.pt</a>
+    </p>
+  </footer>
+</div>
+<p class="legal">© 2026 DOURO ID, Vila Real, Portugal. NIF {{NIF}}. Marcas, logótipos e imagens de terceiros são propriedade dos respetivos titulares e aqui reproduzidos apenas para efeitos de simulação.</p>
+</body>
+</html>

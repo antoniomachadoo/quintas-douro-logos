@@ -1,7 +1,7 @@
 {
   "base_cdn": "https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main",
   "base_raw": "https://raw.githubusercontent.com/antoniomachadoo/quintas-douro-logos/main",
-  "total": 40,
+  "total": 41,
   "logos": [
     {
       "quinta": "Quinta do Vallado",
@@ -442,6 +442,17 @@
       "logo_url": "https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main/logos/maritavora.png",
       "email_url": "https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main/email/maritavora.png",
       "logo_url_raw": "https://raw.githubusercontent.com/antoniomachadoo/quintas-douro-logos/main/logos/maritavora.png"
+    },
+    {
+      "quinta": "Casa da Lameira",
+      "ficheiro": "casa-da-lameira.png",
+      "sub_regiao": "Baixo Corgo",
+      "concelho": "Peso da Régua",
+      "website": "casadalameira.pt",
+      "tile_bg": "escuro/creme",
+      "logo_url": "https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main/logos/casa-da-lameira.png",
+      "email_url": "https://cdn.jsdelivr.net/gh/antoniomachadoo/quintas-douro-logos@main/email/casa-da-lameira.png",
+      "logo_url_raw": "https://raw.githubusercontent.com/antoniomachadoo/quintas-douro-logos/main/logos/casa-da-lameira.png"
     }
   ]
 }
